@@ -7,6 +7,6 @@ if Rails.env.production?
       aws_secret_access_key: ENV['S3_SECRET_KEY'],
       region:               'us-east-2'
     }
-    config.fog_directory = ENV['AWS_BUCKET']
+    config.fog_directory = ENV['photoappimages-tayyab']
   end
 end
